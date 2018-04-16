@@ -28,7 +28,6 @@ Add "alloy" to the plugins section.
   ]
 }
 ```
-```
 
 Enable the rules that you would like to use.
 

@@ -1,0 +1,40 @@
+{
+  "name": "eslint-plugin-alloy",
+  "description": "Alloy specific rules for ESLint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "eslint lib/ rules/ test/",
+    "test": "npm run lint && mocha test/*.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.0.0"
+  },
+  "dependencies": {
+    "eslint-rule-composer": "^0.3.0",
+    "find-up": "^2.1.0",
+    "xmldoc": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-axway": "^2.0.13",
+    "mocha": "^5.1.0"
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/appcelerator/eslint-plugin-alloy.git"
+	},
+	"homepage": "https://github.com/appcelerator/eslint-plugin-alloy#readme",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "alloy",
+    "titanium",
+    "appcelerator"
+  ]
+}

@@ -1,0 +1,10 @@
+._*
+.DS_Store
+.eslintrc
+.git*
+.travis.yml
+node_modules
+npm-debug.log
+yarn-error.log
+/test
+.editorconfig

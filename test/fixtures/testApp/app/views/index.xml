@@ -1,0 +1,15 @@
+<Alloy>
+    <Tab onOpen="foo">
+        <Window title="Console" onOpen="showLogs">
+            <RightNavButton platform="ios" systemButton="TRASH" onClick="clearLogs" />
+            <ScrollView id="scrollView">
+                <Label id="log" />
+            </ScrollView>
+            <CommandBar platform="windows">
+                <Items>
+                    <AppBarButton icon="DELETE" onClick="clearLogs"></AppBarButton>
+                </Items>
+            </CommandBar>
+        </Window>
+    </Tab>
+</Alloy>

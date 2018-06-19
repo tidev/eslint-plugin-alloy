@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-alloy",
   "description": "Alloy specific rules for ESLint",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "license": "Apache-2.0",
   "scripts": {

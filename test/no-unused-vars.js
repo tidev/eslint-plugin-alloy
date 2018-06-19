@@ -11,6 +11,11 @@ ruleTester.run('no-unused-vars', rule, {
 			code: 'function foo() { }; var x; x=2; if(x) {  }',
 			options: [ { 'alloy/no-unused-vars': true } ],
 			filename: path.join(appFixtureDir, 'app', 'controllers', 'index.js')
+		},
+		{
+			code: 'function foo() { }; var x; x=2; if(x) {  }',
+			options: [ { 'alloy/no-unused-vars': true } ],
+			filename: path.join(appFixtureDir, 'app', 'controllers', 'foo.js')
 		}
 	],
 	invalid: [
@@ -18,6 +23,12 @@ ruleTester.run('no-unused-vars', rule, {
 			code: 'function noFoo() { }',
 			options: [ { 'alloy/no-unused-vars': true } ],
 			filename: path.join(appFixtureDir, 'app', 'controllers', 'index.js'),
+			errors: [ { line: 1, column: 10 } ],
+		},
+		{
+			code: 'function foo() { }; var x; x=2; if(x) {  }',
+			options: [ { 'alloy/no-unused-vars': true } ],
+			filename: path.join(appFixtureDir, 'app', 'controllers', 'subdir', 'bar.js'),
 			errors: [ { line: 1, column: 10 } ],
 		}
 	]

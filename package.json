@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-alloy",
   "description": "Alloy specific rules for ESLint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "Apache-2.0",
   "scripts": {
@@ -21,14 +21,14 @@
   },
   "devDependencies": {
     "eslint": "^4.19.1",
-    "eslint-config-axway": "^2.0.13",
-    "mocha": "^5.1.0"
+    "eslint-config-axway": "^2.0.14",
+    "mocha": "^5.2.0"
   },
   "repository": {
-		"type": "git",
-		"url": "https://github.com/appcelerator/eslint-plugin-alloy.git"
-	},
-	"homepage": "https://github.com/appcelerator/eslint-plugin-alloy#readme",
+    "type": "git",
+    "url": "https://github.com/appcelerator/eslint-plugin-alloy.git"
+  },
+  "homepage": "https://github.com/appcelerator/eslint-plugin-alloy#readme",
   "keywords": [
     "eslint",
     "eslint-plugin",

@@ -1,8 +1,6 @@
-ESLint-plugin-React
-===================
+# ESLint-plugin-Alloy
 
-
-Alloy specific linting rules for ESLint
+Alloy specific linting rules for ESLint.
 
 # Installation
 
@@ -40,8 +38,6 @@ Enable the rules that you would like to use.
 # List of supported rules
 
 * [alloy/no-unused-vars](docs/rules/no-unused-vars.md): Extension of the built in [no-unused-vars](https://github.com/eslint/eslint/blob/master/docs/rules/no-unused-vars.md) that also looks up functions used in view files.
-
-
 
 ## License
 

@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "eslint-rule-composer": "^0.3.0",
-    "find-up": "^2.1.0",
+    "find-up": "^5.0.0",
     "xmldoc": "^1.1.0"
   },
   "devDependencies": {

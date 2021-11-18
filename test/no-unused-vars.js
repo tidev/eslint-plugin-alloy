@@ -16,6 +16,11 @@ ruleTester.run('no-unused-vars', rule, {
 			code: 'function foo() { }; var x; x=2; if(x) {  }',
 			parserOptions: { 'alloy/no-unused-vars': true },
 			filename: path.join(appFixtureDir, 'app', 'controllers', 'foo.js')
+		},
+		{
+			code: 'function doTransform() { }; var x; x=2; if(x) {  }',
+			parserOptions: { 'alloy/no-unused-vars': true },
+			filename: path.join(appFixtureDir, 'app', 'controllers', 'index.js')
 		}
 	],
 	invalid: [

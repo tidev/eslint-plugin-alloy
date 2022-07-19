@@ -1,0 +1,3 @@
+<Alloy>
+  <Window android:onClose="onClose" />
+</Alloy>
